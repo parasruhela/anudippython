@@ -12,4 +12,3 @@ print(numbers)
 numbers.remove(56)
 print("56 removed")
 print(numbers)
-
