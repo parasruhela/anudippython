@@ -10,3 +10,5 @@ while i <= a and i <= b:
     i += 1
 
 print(gcd)
+
+    
