@@ -1,0 +1,15 @@
+def is_armstrong(n):
+    num_str = str(n)
+    power = len(num_str)
+    
+    total = 0
+     for digit in num_str:
+        total += int(digit) ** power
+
+    return total == n
+
+
+# Taking input from user
+n = int(input("Enter a number: "))
+
+print(is_armstrong(n))
